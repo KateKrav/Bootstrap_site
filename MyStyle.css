@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Nunito&display=swap');
+/*font-family: 'Kaushan Script', cursive;*/
+/*font-family: 'Nunito', sans-serif;*/
+
+body{
+    font-family: 'Nunito', sans-serif;
+
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.icon{
+    width: 3em;
+    margin: 10px;
+}
+.header {
+    background: #ffd2db;
+}
+.menu{
+
+}
+.menu__item {
+    margin: 15px 50px ;
+}
+.menu__item a {
+    width: 800px;
+    font-size: 25px;
+    color: #4e4e4e;
+
+}
