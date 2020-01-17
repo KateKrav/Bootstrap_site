@@ -96,10 +96,38 @@ h1, h2, h3, h4, h5, h6 {
 /*experience страница */
 
 .experience{
-    background-color: rgba(67, 70, 105, 0.36);
-
+    /*background-color: rgba(67, 70, 105, 0.36);*/
+    background-color: rgba(255, 210, 219, 0.29);
 }
+
+
+
 .icon-item {
-   font-size: 100px;
+    font-size: 100px;
     color: #4e4e4e;
+}
+.graduate{
+    width: 400px;
+}
+.exp__text{
+ margin-bottom: 50px;
+}
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.26%;
+}
+.video__media{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
 }
