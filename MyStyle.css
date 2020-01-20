@@ -171,6 +171,9 @@ K
     padding-left: 12em;
 }
 .intro__title h2{
-    margin: 40px 0 10px ;
+    margin: 9em 0 10px ;
 }
 
+.credits__name{
+    padding-left:4em;
+}
