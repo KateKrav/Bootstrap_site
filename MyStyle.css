@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 .video {
     position: relative;
     z-index: 1;
-    padding-bottom: 56.26%;
+    padding-bottom: 60%;
 
 }
 .video__media{
