@@ -96,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 /*experience страница */
 
 .experience{
-    /*background-color: rgba(67, 70, 105, 0.36);*/
     background-color: rgba(255, 210, 219, 0.29);
 }
 
@@ -115,65 +114,28 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*Страница с видио */
-
-
-.intro {
-    max-height: 70vh;
+.container-video {
+    max-height: 60vh;
     overflow: hidden;
     position: relative;
 }
+
 .video {
     position: relative;
-    z-index: 1;
     padding-bottom: 60%;
 
 }
 .video__media{
     width: 100%;
-    height: auto;
     position: absolute;
     top: 0;
     left: 0;
 }
-/*!*маска *!*/
-/*.intro:after {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 2;*/
 
-/*    background-color: rgba(255, 210, 219, 0.53);*/
 
-/*}*/
-
-.intro__content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 3;
-
-}
-
-.intro__bgd {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.74);
-    z-index: 4;
-    width: 1110px;
-    height: 100%;
-    padding-left: 12em;
-}
-.intro__title h2{
-    margin: 9em 0 10px ;
-}
+/*футер*/
 
 .credits__name{
-    padding-left: 4em;
     padding-top: 1em;
 }
 .footer{
@@ -183,5 +145,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1em;
 }
 
-.logo__footer{ padding-top: 10px
+.logo__footer{
+    padding-top: 10px
 }
